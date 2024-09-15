@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+.icon{
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+}
+.icon h1{
+    font-family: "Oswald", sans-serif
+}
+
+nav{
+    position: fixed;
+    left: 0;
+    width: 241px;
+    height: calc(100vh - 60px);
+    padding:15px 15px;
+    top: 60px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+nav:hover{
+    scrollbar-width:thin; 
+}
+html{
+    scrollbar-color: transparent;
+}
+.recents{
+    overflow: hidden;
+    width: 100%; 
+    padding: 10px 0px ; 
+    position: fixed;
+    top: 0px;
+    margin: 56px 50px 0 249px;
+    background-color: white;
+    z-index: 1;
+    height: 60px;
+}
+.swiper-buttons{
+    display: flex;
+    overflow-x: scroll; 
+    scrollbar-width: none;
+}
+.swiper-buttons button{
+    padding: 8px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0px 8px 0px 0px;
+    flex-shrink: 0;
+}
+main{
+    width: calc(100vw - 280px);
+    margin: 130px 249px;
+    background-color: white;
+    position: absolute;
+    overflow-y: auto;
+    text-align: justify;
+}
+.time p{
+    padding: 2px;
+    position: absolute;
+    color: white;
+    border-radius: 7px;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgb(65, 65, 65);
+}
